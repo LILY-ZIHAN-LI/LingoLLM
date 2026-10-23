@@ -27,7 +27,7 @@ conda env create -f environment.yml
 conda activate lingollm
 ```
 
-`data/chembl_v29.csv` is not committed (150 MB, over GitHub's file size limit).
+`data/chembl_v29.csv` is not committed (150 MB).
 Download it again with `python scripts/make_seeds.py`; everything else in `data/`
 is here.
 
