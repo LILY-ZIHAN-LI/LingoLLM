@@ -1,8 +1,5 @@
 # LingoLLM: Learning to Route Molecular Editing Experts for Multi-Objective Optimization
 
-CMU 11-785 (Introduction to Deep Learning), Group 36.
-Zihan Li (`lilyl2`), Yefeng Lin (`yefengl`), River Zhu (`riverz`).
-
 The experts that propose molecular edits are held fixed. The question is whether a
 learned router picks which expert to call next better than a heuristic one.
 
