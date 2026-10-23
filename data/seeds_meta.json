@@ -1,0 +1,17 @@
+{
+  "source": "ChEMBL_V29",
+  "split_seed": 0,
+  "n_scanned": 40000,
+  "n_scored": 40000,
+  "max_qed": 0.7,
+  "selection": "QED<=max_qed, \u6309 max(gsk3b,jnk3) \u964d\u5e8f, \u6bcf scaffold \u4e00\u4e2a",
+  "sizes": {
+    "train": 200,
+    "val": 50,
+    "test": 100
+  },
+  "scaffold_overlap": 0,
+  "empty_scaffold_rule": "dropped",
+  "median_activity": 0.2,
+  "median_qed": 0.5078012495080093
+}

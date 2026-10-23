@@ -1,0 +1,39 @@
+{
+  "n_total": 100000,
+  "n_val": 2000,
+  "n_bins": 4,
+  "bin_edges": {
+    "gsk3b": [
+      0.01,
+      0.03,
+      0.08
+    ],
+    "jnk3": [
+      0.0,
+      0.01,
+      0.03
+    ],
+    "qed": [
+      0.35532569244145695,
+      0.5422570252005808,
+      0.7158529570702282
+    ],
+    "sa": [
+      0.7377949087046276,
+      0.7996444981418807,
+      0.8435838847303281
+    ]
+  },
+  "objectives": [
+    "gsk3b",
+    "jnk3",
+    "qed",
+    "sa"
+  ],
+  "max_len": 110,
+  "n_scanned": 109422,
+  "n_dropped_heldout_scaffold": 2721,
+  "banned_scaffolds": 150,
+  "leakage_rule": "val/test \u79cd\u5b50\u7684 scaffold \u53ca\u5176\u540c scaffold \u5206\u5b50\u5168\u90e8\u5254\u9664",
+  "oracle_calls": 400000
+}

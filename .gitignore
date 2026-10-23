@@ -1,0 +1,24 @@
+# 超过 GitHub 单文件 100MB 硬上限，推不上去；用 scripts/make_seeds.py 重新下载
+data/chembl_v29.csv
+
+# 不进仓库的目录
+docs/
+report/
+figures/
+results/
+results_*/
+*.pdf
+setup_ec2.sh
+
+# 运行产物
+*.pt
+*.pt.last.pt
+*.pkl
+!oracle/*.pkl
+*.log
+*_log.txt
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
